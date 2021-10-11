@@ -2,3 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pypa2635/testgit.wildwildwebs.fr/
+    - /bin/cp -R * $DEPLOYPATH
