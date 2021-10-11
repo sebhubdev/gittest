@@ -1,0 +1,40 @@
+body {
+    background-color: #333388;
+    margin :0;
+    padding: 0;
+}
+
+.title-1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+nav ul {
+    margin :0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    margin-right: -4px;
+}
+
+nav ul li:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
